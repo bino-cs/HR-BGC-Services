@@ -1,0 +1,15 @@
+db.Personal.insertOne({firstName: 'Bino',lastName:'C S',email:'bino.sujathan@gmail.com'})
+
+db.Address.insertOne({street:'Phase 1',city: 'Bangalore',state: 'Karnataka',zip: '560035'})
+
+db.Education.insertOne({startDate: new Date(),endDate: new Date(),institutionName: 'Marian',universityName: 'MG University',certificatePath: 'd://Bino'})
+
+db.WorkDetails.insertOne({companyName: 'Synechron',isStillWorking:false,workingStartDate:Date(),workingEndDate:Date(),companyAddress:'Sarjapura',companyCity:'Bangalore',stateProvinceRegion:'karnataka',postalcodeZip:'560035',companyCountry:'India',companyphoneNumber:'80569877',companyEmailId:'Bino.cS@synechron.com',refNumber:'89745621',releavingLetter:'d://',experianceLetter: 'd://'}) 
+
+show collections
+show dbs
+
+
+
+db.Personal.find().pretty()
+db.Perosnal.find().pretty()
